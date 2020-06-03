@@ -12,7 +12,7 @@ setup(
     license='BSD-3',
     url='https://github.com/tlambert03/terrible',
     description="Don't ever use this plugin",
-    packages=find_packages(),
+    py_modules=['napari_terrible'],
     python_requires='>=3.6',
     install_requires=['napari_plugin_engine'],
     entry_points={
